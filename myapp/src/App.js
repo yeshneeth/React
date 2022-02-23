@@ -8,11 +8,23 @@ import GreetWithProps from './components/GreetWithProps';
 import WelcomeClassProps from './components/WelcomeClassProps';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import EventBinder from './components/EventBinder';
+import ParentComponent from './components/Parent';
+import ListRender from './components/ListRender';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/inline';
+import Form from './Forms/Form'
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Form />
+      {/* <Inline /> */}
+      {/* <StyleSheet primary={true} /> */}
+      {/* <ListRender /> */}
+      {/* <ParentComponent></ParentComponent> */}
+      {/* <EventBinder></EventBinder> */}
+      {/* <Counter /> */}
       {/* <Message></Message> */}
       {/* <Greet /> */}
       {/* <Hello /> */}
